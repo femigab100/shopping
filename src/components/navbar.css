@@ -5,6 +5,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    
 }
 
 .links {
@@ -18,8 +22,5 @@
     color: white;
     margin-left: 20px;
     font-size: 25px;
-}
-@media (screen) {
-    
 }
 
